@@ -81,9 +81,6 @@ h1 {
 
 #button:hover {
   cursor: pointer;
-  color: #896363;
-  background-color: rgba(255, 255, 255, 0.85);
-  border: 2px solid transparent;
 }
 h1::selection,
 h2::selection,
@@ -92,4 +89,13 @@ a::selection,
 br::selection {
   background-color: lime;
   color: white;
+}
+
+@media screen and (min-width: 500px) {
+  #button:hover {
+    cursor: pointer;
+    color: #896363;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 2px solid transparent;
+  }
 }
