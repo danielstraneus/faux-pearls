@@ -15,11 +15,10 @@ body:before {
   width: 100vw;
   height: 100vh;
   content: "";
-  opacity: 0.015;
+  opacity: 0.03;
   z-index: 1000000;
   pointer-events: none;
-  background-image: url(./noise.gif);
-  filter: brightness(540%);
+  background-image: url(./22072325_6566231.jpg);
 }
 
 #canvas1 {
